@@ -1,7 +1,7 @@
 class PigLatinizer
   
   def piglatinize(string)
-    x = string.split(" ") 
+    x =  
     y = x.map do |s|
       a = s.split(/([AEIOUaeiou].*)/)
       if a.length == 1 
