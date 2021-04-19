@@ -1,8 +1,7 @@
 class PigLatinizer
   
   def piglatinize(string)
-    x =  
-    y = x.map do |s|
+    p_latin = string.split(" ").map do |s|
       a = s.split(/([AEIOUaeiou].*)/)
       if a.length == 1 
         a[0] + "way"
@@ -12,7 +11,7 @@ class PigLatinizer
         a[1] + a[0] + "ay"
       end
     end
-    y.join(" ")
+    p_latin.join(" ")
   end
   
 end
