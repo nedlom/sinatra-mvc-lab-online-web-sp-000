@@ -12,6 +12,7 @@ class PigLatinizer
         a[1] + a[0] + "ay"
       end
     end
+    y[0]
   end
   
 end
