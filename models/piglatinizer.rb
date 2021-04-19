@@ -12,14 +12,6 @@ class PigLatinizer
         a[1] + a[0] + "ay"
       end
     end
-    y.join(" ")
-    # array = string.split(/([AEIOUaeiou].*)/)
-    # if array.length == 1 
-    #   array[0] + "way"
-    # elsif array[0] == ""
-    #   array[1] + "way"
-    # else
-    #   array[1] + array[0] + "ay"
-    # end
   end
+  
 end
